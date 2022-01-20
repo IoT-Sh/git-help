@@ -1,0 +1,11 @@
+Generate the key
+>> ssh-keygen -t rsa -b 4096 -C "example@example.com"  #replace your github email address here
+
+use the key
+>> eval $(ssh-agent -s)
+>> ssh-add ~/.ssh/id_rsa
+
+copy the key
+>> clip < ~/.ssh/id_rsa.pub
+
+go to github profile  > settings > SSH and GPG keys > add new > type title name > at the field past the key using "ctrl + V"
