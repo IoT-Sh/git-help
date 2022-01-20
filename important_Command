@@ -1,0 +1,19 @@
+To add all files
+>> git add .
+
+show status
+>> git status
+
+commit
+>> git commit -m "comment here"
+
+push
+>> git push origin
+or
+>> git push
+
+create new branch
+>> git branch 'Name'
+
+switch branch
+>> git checkout 'Name'
